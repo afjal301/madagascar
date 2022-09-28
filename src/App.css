@@ -1,0 +1,61 @@
+.first{
+    height: 100vh;
+    width: 100%;
+   user-select: none;
+}
+.menu{
+    height: 100vh;
+    float: left;
+    width: 10%;
+    background-color: rgb(15, 87, 39);
+    text-align: center;
+    color:white;
+}
+.contenu{
+    float: right;
+    width: 80%;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: 0 0 7px rgb(15, 87, 39);
+    height: 90vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+}
+.contenu h1{
+    text-align: center;
+    color: rgb(15, 87, 39);
+}
+.formulaire{
+    height: 50vh;
+    width: 100%;
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.formulaire form{
+    height: 50vh;
+    width: 25%;
+    box-shadow: 0 0 7px rgb(15, 87, 39);
+    border-radius: 15px;
+    
+}
+.formulaire form input{
+    height: 5vh;
+    width: 90%;
+    margin-top: 7vh;
+    text-align: center;
+   
+   
+}
+.submit{
+    background-color:rgb(109, 173, 130);
+    border: none;
+    color: white;
+    border-radius: 15px;
+
+}
+.logo{
+    margin-top: 30vh;
+}
